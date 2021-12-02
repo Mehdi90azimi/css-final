@@ -1,0 +1,98 @@
+.container{
+    left: 0;
+    bottom:0;
+    position: relative;
+    display: flex;
+    transform: translate(-50% , -50%);
+    margin-left: 120px;
+    margin-bottom: 20px;  
+}
+.button1-card{
+    background:rgb(23, 172, 23);
+    color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    border: 1px solid rgb(23, 172, 23);
+    z-index:999;
+    cursor: pointer;
+    box-sizing: border-box;
+    
+}
+
+.button1-card  i{
+    margin: 10px;
+    width:20px;
+}
+.button-info{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 0px;
+    color: white;
+    line-height: 35px;
+    height: 35px;
+    left:10px;
+    position: absolute;
+    background: rgb(23, 172, 23);
+    border-radius: 20px;
+    border: 1px solid rgb(23, 172, 23);
+    z-index:-1;
+    transition:  0.5s ease-out;
+    overflow: hidden;
+}
+.button1-card:hover .button-info{
+    width: 90px;
+}
+.container1{
+    left:0;
+    bottom:0;
+    position: relative;
+    display: flex;
+    transform: translate(-50% ,-50%);
+    margin-left: 60px;
+    margin-bottom: 30px;  
+}
+.button2-card{
+    position: relative;
+    background:rgb(23, 172, 23);
+    color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    border: 1px solid rgb(23, 172, 23);
+    z-index: 999;
+}
+
+.button2-card  i {
+    margin: 10px;
+    width:20px;
+}
+.button-info1 {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 0px;
+    color: white;
+    line-height: 35px;
+    height: 35px;
+    right:15px;
+    position: absolute;
+    background: rgb(23, 172, 23);
+    border-radius: 20px;
+    border: 1px solid rgb(23, 172, 23);
+    z-index:-1;
+    transition: 0.5s;
+    overflow: hidden;
+}
+.button2-card:hover .button-info1{
+    width: 90px;
+}
+.money{
+    padding-top: 10px;
+    padding-left: 10px;
+}
